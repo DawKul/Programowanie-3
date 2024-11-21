@@ -1,0 +1,123 @@
+﻿  main.cpp
+C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\main.cpp(16,5): error C2653: "MergeSort": nie jest nazwą klasa lub nazwą przestrzeni nazw
+  (kompilowanie pliku źródłowego „/main.cpp”)
+  
+C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\main.cpp(16,16): error C2672: „sort”: nie znaleziono zgodnej przeciążonej funkcji
+  (kompilowanie pliku źródłowego „/main.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\algorithm(8248,19):
+      może to być „void std::sort(const _RanIt,const _RanIt)”
+          C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\main.cpp(16,16):
+          „void std::sort(const _RanIt,const _RanIt)”: oczekuje 2 argumentów — podano 1
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\algorithm(8240,19):
+      lub       "void std::sort(const _RanIt,const _RanIt,_Pr)"
+          C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\main.cpp(16,16):
+          „void std::sort(const _RanIt,const _RanIt,_Pr)”: oczekuje 3 argumentów — podano 1
+  
+  MergeSort.cpp
+C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSort.cpp(4,6): error C2653: "MergeSort": nie jest nazwą klasa lub nazwą przestrzeni nazw
+  (kompilowanie pliku źródłowego „/MergeSort.cpp”)
+  
+C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSort.cpp(13,9): error C2672: „merge”: nie znaleziono zgodnej przeciążonej funkcji
+  (kompilowanie pliku źródłowego „/MergeSort.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\algorithm(7384,21):
+      może to być „_OutIt std::merge(_InIt1,_InIt1,_InIt2,_InIt2,_OutIt)”
+          C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSort.cpp(13,9):
+          „_OutIt std::merge(_InIt1,_InIt1,_InIt2,_InIt2,_OutIt)”: oczekuje 5 argumentów — podano 4
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\algorithm(7343,21):
+      lub       "_OutIt std::merge(_InIt1,_InIt1,_InIt2,_InIt2,_OutIt,_Pr)"
+          C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSort.cpp(13,9):
+          „_OutIt std::merge(_InIt1,_InIt1,_InIt2,_InIt2,_OutIt,_Pr)”: oczekuje 6 argumentów — podano 4
+  
+C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSort.cpp(17,6): error C2653: "MergeSort": nie jest nazwą klasa lub nazwą przestrzeni nazw
+  (kompilowanie pliku źródłowego „/MergeSort.cpp”)
+  
+C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSort.cpp(62,6): error C2653: "MergeSort": nie jest nazwą klasa lub nazwą przestrzeni nazw
+  (kompilowanie pliku źródłowego „/MergeSort.cpp”)
+  
+C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSort.cpp(64,38): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+  (kompilowanie pliku źródłowego „/MergeSort.cpp”)
+  
+C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSort.cpp(69,6): error C2653: "MergeSort": nie jest nazwą klasa lub nazwą przestrzeni nazw
+  (kompilowanie pliku źródłowego „/MergeSort.cpp”)
+  
+C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSort.cpp(69,28): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+  (kompilowanie pliku źródłowego „/MergeSort.cpp”)
+  
+C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSort.cpp(69,43): error C2143: błąd składniowy: brakuje „,” przed „&”
+  (kompilowanie pliku źródłowego „/MergeSort.cpp”)
+  
+C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSort.cpp(69,17): error C2270: "==": modyfikatory niedozwolone dla funkcji niebędących funkcjami członkowskimi
+  (kompilowanie pliku źródłowego „/MergeSort.cpp”)
+  
+  MergeSortTest.cpp
+C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSortTest.cpp(7,5): error C2653: "MergeSort": nie jest nazwą klasa lub nazwą przestrzeni nazw
+  (kompilowanie pliku źródłowego „/MergeSortTest.cpp”)
+  
+C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSortTest.cpp(7,16): error C2672: „sort”: nie znaleziono zgodnej przeciążonej funkcji
+  (kompilowanie pliku źródłowego „/MergeSortTest.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\algorithm(8248,19):
+      może to być „void std::sort(const _RanIt,const _RanIt)”
+          C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSortTest.cpp(7,16):
+          „void std::sort(const _RanIt,const _RanIt)”: oczekuje 2 argumentów — podano 1
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\algorithm(8240,19):
+      lub       "void std::sort(const _RanIt,const _RanIt,_Pr)"
+          C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSortTest.cpp(7,16):
+          „void std::sort(const _RanIt,const _RanIt,_Pr)”: oczekuje 3 argumentów — podano 1
+  
+C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSortTest.cpp(13,5): error C2653: "MergeSort": nie jest nazwą klasa lub nazwą przestrzeni nazw
+  (kompilowanie pliku źródłowego „/MergeSortTest.cpp”)
+  
+C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSortTest.cpp(13,16): error C2672: „sort”: nie znaleziono zgodnej przeciążonej funkcji
+  (kompilowanie pliku źródłowego „/MergeSortTest.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\algorithm(8248,19):
+      może to być „void std::sort(const _RanIt,const _RanIt)”
+          C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSortTest.cpp(13,16):
+          „void std::sort(const _RanIt,const _RanIt)”: oczekuje 2 argumentów — podano 1
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\algorithm(8240,19):
+      lub       "void std::sort(const _RanIt,const _RanIt,_Pr)"
+          C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSortTest.cpp(13,16):
+          „void std::sort(const _RanIt,const _RanIt,_Pr)”: oczekuje 3 argumentów — podano 1
+  
+C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSortTest.cpp(19,5): error C2653: "MergeSort": nie jest nazwą klasa lub nazwą przestrzeni nazw
+  (kompilowanie pliku źródłowego „/MergeSortTest.cpp”)
+  
+C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSortTest.cpp(19,16): error C2672: „sort”: nie znaleziono zgodnej przeciążonej funkcji
+  (kompilowanie pliku źródłowego „/MergeSortTest.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\algorithm(8248,19):
+      może to być „void std::sort(const _RanIt,const _RanIt)”
+          C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSortTest.cpp(19,16):
+          „void std::sort(const _RanIt,const _RanIt)”: oczekuje 2 argumentów — podano 1
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\algorithm(8240,19):
+      lub       "void std::sort(const _RanIt,const _RanIt,_Pr)"
+          C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSortTest.cpp(19,16):
+          „void std::sort(const _RanIt,const _RanIt,_Pr)”: oczekuje 3 argumentów — podano 1
+  
+C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSortTest.cpp(25,5): error C2653: "MergeSort": nie jest nazwą klasa lub nazwą przestrzeni nazw
+  (kompilowanie pliku źródłowego „/MergeSortTest.cpp”)
+  
+C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSortTest.cpp(25,16): error C2672: „sort”: nie znaleziono zgodnej przeciążonej funkcji
+  (kompilowanie pliku źródłowego „/MergeSortTest.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\algorithm(8248,19):
+      może to być „void std::sort(const _RanIt,const _RanIt)”
+          C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSortTest.cpp(25,16):
+          „void std::sort(const _RanIt,const _RanIt)”: oczekuje 2 argumentów — podano 1
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\algorithm(8240,19):
+      lub       "void std::sort(const _RanIt,const _RanIt,_Pr)"
+          C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSortTest.cpp(25,16):
+          „void std::sort(const _RanIt,const _RanIt,_Pr)”: oczekuje 3 argumentów — podano 1
+  
+C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSortTest.cpp(31,5): error C2653: "MergeSort": nie jest nazwą klasa lub nazwą przestrzeni nazw
+  (kompilowanie pliku źródłowego „/MergeSortTest.cpp”)
+  
+C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSortTest.cpp(31,16): error C2672: „sort”: nie znaleziono zgodnej przeciążonej funkcji
+  (kompilowanie pliku źródłowego „/MergeSortTest.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\algorithm(8248,19):
+      może to być „void std::sort(const _RanIt,const _RanIt)”
+          C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSortTest.cpp(31,16):
+          „void std::sort(const _RanIt,const _RanIt)”: oczekuje 2 argumentów — podano 1
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\algorithm(8240,19):
+      lub       "void std::sort(const _RanIt,const _RanIt,_Pr)"
+          C:\Users\Dawid\source\repos\Sample-Test3\Sample-Test3\MergeSortTest.cpp(31,16):
+          „void std::sort(const _RanIt,const _RanIt,_Pr)”: oczekuje 3 argumentów — podano 1
+  
+  Generowanie kodu...
