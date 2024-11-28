@@ -3,7 +3,7 @@
 //
 
 #include "pch.h"
-
+//Konstruktor
 SortowaniePrzezScalanie::SortowaniePrzezScalanie(int* wejscieTablica, int wejscieRozmiar)
     : rozmiar(wejscieRozmiar) {
     if (rozmiar > 0) {
